@@ -1,0 +1,48 @@
+{
+  "name": "@sidneys/releasenotes",
+  "version": "1.138.0",
+  "description": "Generate Markdown release notes from a JSON changelog",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sidneys/releasenotes",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://bitbucket.org/sidneys"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/sidneys/releasenotes.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/sidneys/releasenotes/issues"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "os": [
+    "darwin",
+    "win32",
+    "linux"
+  ],
+  "keywords": [
+    "development",
+    "tools"
+  ],
+  "dependencies": {
+    "@sidneys/logger": "^1.151.0",
+    "app-root-path": "^3.0.0",
+    "fs-extra": "^9.0.1",
+    "json2md": "^1.9.2",
+    "lodash": "^4.17.20",
+    "remove-markdown": "^0.3.0"
+  },
+  "main": "./index.js",
+  "bin": {
+    "releasenotes": "index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
