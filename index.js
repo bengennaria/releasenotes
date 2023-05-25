@@ -19,7 +19,7 @@ const path = require('path')
 const _ = require('lodash')
 const appRootPath = require('app-root-path')['path']
 const json2md = require('json2md')
-const logger = require('@sidneys/logger')({ timestamp: false })
+const logger = require('@bengennaria/logger')({ timestamp: false })
 const removeMarkdown = require('remove-markdown')
 
 /**

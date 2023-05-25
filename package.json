@@ -1,20 +1,20 @@
 {
-  "name": "@sidneys/releasenotes",
+  "name": "@bengennaria/releasenotes",
   "version": "1.138.0",
   "description": "Generate Markdown release notes from a JSON changelog",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidneys/releasenotes",
+  "homepage": "https://github.com/bengennaria/releasenotes",
   "author": {
-    "name": "sidneys",
-    "email": "sidneys.github.io@outlook.com",
-    "url": "https://bitbucket.org/sidneys"
+    "name": "bengennaria",
+    "email": "ben.gennaria@gmail.com",
+    "url": "https://github.com/bengennaria"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sidneys/releasenotes.git"
+    "url": "https://github.com/bengennaria/releasenotes.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/sidneys/releasenotes/issues"
+    "url": "https://github.com/bengennaria/releasenotes/issues"
   },
   "deprecated": false,
   "engines": {
@@ -31,7 +31,7 @@
     "tools"
   ],
   "dependencies": {
-    "@sidneys/logger": "^1.151.0",
+    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
     "app-root-path": "^3.0.0",
     "fs-extra": "^9.0.1",
     "json2md": "^1.9.2",
